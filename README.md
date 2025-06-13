@@ -1,4 +1,4 @@
-# 🔄 Solana Raydium & Pump.fun AMM & Meteora volume Bot
+# 🔄 Solana Raydium & Pump.fun AMM & Meteora Volume Bot
 
 A high-performance trading bot that interacts with the Pump.fun AMM swap and Raydium CLMM & CPMM platform. This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions on the Pump.fun AMM swap & Raydium platform and withdraw remain fees and close token accounts simultaneously 
 
