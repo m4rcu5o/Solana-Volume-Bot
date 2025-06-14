@@ -2,9 +2,6 @@
 
 A high-performance Solana Volume Bot that interacts with Solana DEX platforms the PumpSwap and Raydium CLMM & CPMM platform. This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions on the Pump.fun AMM swap & Raydium platform and withdraw remain fees and close token accounts simultaneously 
 
-## 🎫 Contact
-
-[Telegram](https://t.me/stevensprg)
 
 Tx: https://solscan.io/tx/4ZXTuCu2JKR4tb7o6XmNt8Mm9ELPEjnzqmfy75P8AqaFVAYK3gEHieuxgPqCQuxKeWWt1cWocmKRSjyh6WjXGo6o
 
@@ -69,3 +66,6 @@ yarn dev
 "build": "tsc",
 ```
 
+## 🎫 Contact
+
+[Telegram](https://t.me/stevensprg)
