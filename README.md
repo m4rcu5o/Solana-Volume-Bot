@@ -11,7 +11,7 @@ A high-performance Solana Volume Bot that interacts with Solana DEX platforms th
 
 ## 💻 Video
 
-https://github.com/user-attachments/assets/562d597f-0961-47e0-802e-ae74341f1fea
+https://github.com/user-attachments/assets/07f2a8d8-54fd-42c5-8337-d7b2fef4b3da
 
 ## 📌 Features
 
