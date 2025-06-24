@@ -8,8 +8,6 @@ A high-performance Solana Volume Bot that interacts with Solana DEX platforms th
 - **Meteora DLMM:** https://explorer.jito.wtf/bundle/558eb9f86665cd3362f0dde7a847452370d0a5c100d6cf1276bc7469ee9728b0
 
 - **Meteora Dynmic AMM:** https://explorer.jito.wtf/bundle/44b1e24a0fb2d2038582deef52a6c5834e9118835f07cc30d76453070e7cfaee
-  
-- **Retrieve SOL:** https://explorer.jito.wtf/bundle/44b1e24a0fb2d2038582deef52a6c5834e9118835f07cc30d76453070e7cfaee
 
 ## 💻 Video
 
