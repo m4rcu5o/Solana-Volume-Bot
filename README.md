@@ -76,3 +76,5 @@ yarn dev
 ## 🎫 Contact
 
 [Telegram](https://t.me/stevensprg)
+
+### Please don't forget give ✨Star✨ and 🎞Fork🎞. 😊
