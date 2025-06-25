@@ -1,6 +1,6 @@
 # 🔄 Solana PumpSwap Raydium Meteora Volume Bot
 
-A high-performance Solana Volume Bot that interacts with Solana DEX platforms the PumpSwap and Raydium CLMM & CPMM platform. This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions on the Pump.fun AMM swap & Raydium platform and withdraw remain fees and close token accounts simultaneously 
+A high-performance Solana trading Bot that interacts with Solana DEX platforms the PumpSwap and Raydium CLMM & CPMM platform for volume boost. This bot is designed to automate the distribution of SOL to multiple wallets and execute endless buy and sell swap transactions on the Pump.fun AMM swap & Raydium platform and withdraw remain fees and close token accounts simultaneously 
 
 ## Transaction
 - **Pumpswap:** https://solscan.io/tx/ZkEdGvHeu1tR2Agy1RvqcX9XST5YDRFbCPaqTo1kCgPbae7XuKh3qjYmLBbZC7KMHP9GvBadJYzVceBvCZhbhFk
