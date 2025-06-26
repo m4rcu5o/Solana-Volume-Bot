@@ -75,6 +75,6 @@ yarn dev
 
 ## 🎫 Contact
 
-[Telegram](https://t.me/m4rcu5sol)
+[Telegram](https://t.me/pup5ol)
 
 ### Please don't forget give ✨Star✨ and 🎞Fork🎞. 😊
